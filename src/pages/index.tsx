@@ -5,9 +5,10 @@ import Link from "next/link";
 import { api } from "~/utils/api";
 
 export default function Home() {
-  const hello = api.example.hello.useQuery({ text: "from tRPC" });
+
 
   const user = useUser()
+  const {data} = api.moves.getAll.useQuery()
   console.log(user.user?.firstName)
 
   return (
@@ -21,6 +22,9 @@ export default function Home() {
         <div>
           {!user.isSignedIn && <SignInButton />}
           {!!user.isSignedIn && <SignOutButton />}
+        </div>
+        <div>
+          {data?.map((move) => (<div key={move.id}>{move.addedPlayer}{move.droppedPlayer}</div>))}
         </div>
       </main>
     </>
