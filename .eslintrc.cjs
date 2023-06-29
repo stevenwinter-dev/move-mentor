@@ -13,6 +13,18 @@ const config = {
         project: path.join(__dirname, "tsconfig.json"),
       },
     },
+    {
+      files: ["scrapper/qbScrapper.js"], 
+      parserOptions: {
+        project: null,
+      },
+    },
+    {
+      files: ["scrapper/allPlayersScrapper.js"], 
+      parserOptions: {
+        project: null,
+      },
+    },
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {

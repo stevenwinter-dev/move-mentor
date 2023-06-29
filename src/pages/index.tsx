@@ -2,6 +2,7 @@
 import { SignInButton, SignOutButton, useUser } from "@clerk/nextjs";
 import Head from "next/head";
 import Link from "next/link";
+import { Input } from "~/components/Input";
 import { api } from "~/utils/api";
 
 export default function Home() {
@@ -24,6 +25,8 @@ export default function Home() {
           {!!user.isSignedIn && <SignOutButton />}
         </div>
         <div>
+          <Input label='added' />
+          <Input label='dropped' />
           {data?.map((move) => (<div key={move.id}>{move.addedPlayer}{move.droppedPlayer}</div>))}
         </div>
       </main>
