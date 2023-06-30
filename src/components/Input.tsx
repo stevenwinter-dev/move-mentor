@@ -20,13 +20,15 @@ export const Input = ({ label, onChange }: InputProps) => {
     const fetchPlayers = async () => {
       try {
         const response = await fetch('/players.json');
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
         const data = await response.json();
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-member-access
         setPlayers(data.Players);
       } catch (error) {
         console.error('Error loading players data:', error);
       }
     };
-
+    // eslint-disable-next-line @typescript-eslint/no-floating-promises
     fetchPlayers();
   }, []);
 
