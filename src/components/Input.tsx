@@ -6,7 +6,7 @@ interface InputProps {
 }
 
 export const Input = ({ label, onChange }: InputProps) => {
-  const [players, setPlayers] = useState<string[]>([]);
+  const [players, setPlayers] = useState([]);
   const [selectedPlayer, setSelectedPlayer] = useState('');
 
   const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
