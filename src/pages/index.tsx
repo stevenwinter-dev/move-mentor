@@ -1,4 +1,4 @@
-
+import { useState } from 'react';
 import { SignInButton, SignOutButton, useUser } from "@clerk/nextjs";
 import Head from "next/head";
 import Link from "next/link";
@@ -10,7 +10,22 @@ export default function Home() {
 
   const  user  = useUser()
   const {data} = api.moves.getAll.useQuery()
-  console.log(user?.firstName)
+  console.log(user.user?.firstName)
+
+  const [addedPlayer, setAddedPlayer] = useState('');
+  const [droppedPlayer, setDroppedPlayer] = useState('');
+
+  const handlePlayerAdd = (player: string) => {
+      setAddedPlayer(player)
+  };
+
+  const handlePlayerDrop= (player: string) => {
+    setDroppedPlayer(player)
+  };
+
+  const handleComparison = () => {
+    return true;
+  }
   
   return (
     <>
@@ -25,9 +40,11 @@ export default function Home() {
           {!!user.isSignedIn && <SignOutButton />}
         </div>
         <div>
-          <Input label='added' />
-          <Input label='dropped' />
-          {data?.map((move) => (<div key={move.id}>{move.addedPlayer}{move.droppedPlayer}</div>))}
+          <Input label='added' onChange={handlePlayerAdd} />
+          <Input label='dropped' onChange={handlePlayerDrop} />
+          {addedPlayer && <h2 className={`my-4 p-4 bg-white text-slate-900 text-center ${ handleComparison() ? 'neon-green-border' : 'neon-red-border'}`}>Added Player: {addedPlayer}</h2>}
+          {droppedPlayer && <h2 className={`my-4 p-4 bg-white text-slate-900 text-center ${ handleComparison() ? 'neon-red-border' : 'neon-green-border'}`}>Dropped Player: {droppedPlayer}</h2>}
+          {/* {data?.map((move) => (<div key={move.id}>{move.addedPlayer}{move.droppedPlayer}</div>))} */}
         </div>
       </main>
     </>

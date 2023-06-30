@@ -5,3 +5,11 @@
 body {
     @apply text-slate-100;
 }
+
+.neon-green-border {
+    @apply border-2 border-green-500 rounded-lg ring-2 ring-green-500 ring-offset-2 ring-offset-green-300
+}
+
+.neon-red-border {
+    @apply border-2 border-red-500 rounded-lg ring-2 ring-red-500 ring-offset-2 ring-offset-red-400
+}
