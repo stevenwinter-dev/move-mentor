@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import * as playersData from './players.json'
 
 interface InputProps {
   label: string;
