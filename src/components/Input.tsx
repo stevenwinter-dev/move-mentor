@@ -3,9 +3,10 @@ import { useEffect, useState } from 'react';
 interface InputProps {
   label: string;
   onChange: (value: string) => void;
+  placeholder: string;
 }
 
-export const Input = ({ label, onChange }: InputProps) => {
+export const Input = ({ label, onChange, placeholder }: InputProps) => {
   const [players, setPlayers] = useState([]);
   const [selectedPlayer, setSelectedPlayer] = useState('');
 
@@ -33,9 +34,17 @@ export const Input = ({ label, onChange }: InputProps) => {
   }, []);
 
   return (
-    <div>
-      <label htmlFor="playerSelect">{label}</label>
-      <select id="playerSelect" className="w-full rounded-lg bg-white text-gray-800 border-gray-300 py-2 px-4" value={selectedPlayer} onChange={handleSelectChange}>
+    <div className='mx-4'>
+      <label htmlFor="playerSelect"></label>
+      <select
+        id="playerSelect"
+        className="rounded-lg bg-white text-gray-800 border-gray-300 py-2 px-4"
+        value={selectedPlayer}
+        onChange={handleSelectChange}
+      >
+        <option value="" disabled>
+          {placeholder}
+        </option>
         {players.map((player, index) => (
           <option key={index} value={player}>
             {player}

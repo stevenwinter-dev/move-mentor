@@ -1,0 +1,418 @@
+{
+    "week1": [
+      {
+        "name": "A.J. Brown",
+        "stats": {
+          "Points": 25,
+          "Yards": 180,
+          "Targets": 12,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "AJ Dillon",
+        "stats": {
+          "Points": 15,
+          "Yards": 120,
+          "Targets": 8,
+          "Fumbles": 1
+        }
+      },
+      {
+        "name": "Aaron Jones",
+        "stats": {
+          "Points": 28,
+          "Yards": 200,
+          "Targets": 10,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Aaron Rodgers",
+        "stats": {
+          "Points": 18,
+          "Yards": 240,
+          "Targets": 15,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Adam Thielen",
+        "stats": {
+          "Points": 20,
+          "Yards": 120,
+          "Targets": 12,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Alec Pierce",
+        "stats": {
+          "Points": 10,
+          "Yards": 60,
+          "Targets": 6,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Allen Lazard",
+        "stats": {
+          "Points": 12,
+          "Yards": 80,
+          "Targets": 10,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Alvin Kamara",
+        "stats": {
+          "Points": 30,
+          "Yards": 150,
+          "Targets": 12,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Amari Cooper",
+        "stats": {
+          "Points": 22,
+          "Yards": 180,
+          "Targets": 14,
+          "Fumbles": 0
+        }
+      }
+    ],
+    "week2": [
+      {
+        "name": "A.J. Brown",
+        "stats": {
+          "Points": 28,
+          "Yards": 210,
+          "Targets": 15,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "AJ Dillon",
+        "stats": {
+          "Points": 12,
+          "Yards": 90,
+          "Targets": 10,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Aaron Jones",
+        "stats": {
+          "Points": 32,
+          "Yards": 180,
+          "Targets": 12,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Aaron Rodgers",
+        "stats": {
+          "Points": 22,
+          "Yards": 260,
+          "Targets": 18,
+          "Fumbles": 1
+        }
+      },
+      {
+        "name": "Adam Thielen",
+        "stats": {
+          "Points": 18,
+          "Yards": 140,
+          "Targets": 10,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Alec Pierce",
+        "stats": {
+          "Points": 14,
+          "Yards": 90,
+          "Targets": 8,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Allen Lazard",
+        "stats": {
+          "Points": 10,
+          "Yards": 70,
+          "Targets": 6,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Alvin Kamara",
+        "stats": {
+          "Points": 32,
+          "Yards": 160,
+          "Targets": 14,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Amari Cooper",
+        "stats": {
+          "Points": 20,
+          "Yards": 160,
+          "Targets": 12,
+          "Fumbles": 0
+        }
+      }
+    ],
+    "week3": [
+      {
+        "name": "A.J. Brown",
+        "stats": {
+          "Points": 30,
+          "Yards": 240,
+          "Targets": 18,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "AJ Dillon",
+        "stats": {
+          "Points": 18,
+          "Yards": 150,
+          "Targets": 12,
+          "Fumbles": 1
+        }
+      },
+      {
+        "name": "Aaron Jones",
+        "stats": {
+          "Points": 24,
+          "Yards": 160,
+          "Targets": 10,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Aaron Rodgers",
+        "stats": {
+          "Points": 20,
+          "Yards": 220,
+          "Targets": 16,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Adam Thielen",
+        "stats": {
+          "Points": 28,
+          "Yards": 180,
+          "Targets": 14,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Alec Pierce",
+        "stats": {
+          "Points": 16,
+          "Yards": 100,
+          "Targets": 8,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Allen Lazard",
+        "stats": {
+          "Points": 12,
+          "Yards": 90,
+          "Targets": 6,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Alvin Kamara",
+        "stats": {
+          "Points": 26,
+          "Yards": 180,
+          "Targets": 12,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Amari Cooper",
+        "stats": {
+          "Points": 18,
+          "Yards": 140,
+          "Targets": 10,
+          "Fumbles": 1
+        }
+      }
+    ],
+    "week4": [
+      {
+        "name": "A.J. Brown",
+        "stats": {
+          "Points": 20,
+          "Yards": 160,
+          "Targets": 10,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "AJ Dillon",
+        "stats": {
+          "Points": 10,
+          "Yards": 80,
+          "Targets": 6,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Aaron Jones",
+        "stats": {
+          "Points": 22,
+          "Yards": 140,
+          "Targets": 12,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Aaron Rodgers",
+        "stats": {
+          "Points": 28,
+          "Yards": 250,
+          "Targets": 20,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Adam Thielen",
+        "stats": {
+          "Points": 16,
+          "Yards": 120,
+          "Targets": 10,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Alec Pierce",
+        "stats": {
+          "Points": 8,
+          "Yards": 50,
+          "Targets": 4,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Allen Lazard",
+        "stats": {
+          "Points": 10,
+          "Yards": 70,
+          "Targets": 6,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Alvin Kamara",
+        "stats": {
+          "Points": 24,
+          "Yards": 180,
+          "Targets": 12,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Amari Cooper",
+        "stats": {
+          "Points": 14,
+          "Yards": 100,
+          "Targets": 8,
+          "Fumbles": 0
+        }
+      }
+    ],
+    "week5": [
+      {
+        "name": "A.J. Brown",
+        "stats": {
+          "Points": 25,
+          "Yards": 180,
+          "Targets": 12,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "AJ Dillon",
+        "stats": {
+          "Points": 15,
+          "Yards": 120,
+          "Targets": 8,
+          "Fumbles": 1
+        }
+      },
+      {
+        "name": "Aaron Jones",
+        "stats": {
+          "Points": 28,
+          "Yards": 200,
+          "Targets": 10,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Aaron Rodgers",
+        "stats": {
+          "Points": 18,
+          "Yards": 240,
+          "Targets": 15,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Adam Thielen",
+        "stats": {
+          "Points": 20,
+          "Yards": 120,
+          "Targets": 12,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Alec Pierce",
+        "stats": {
+          "Points": 10,
+          "Yards": 60,
+          "Targets": 6,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Allen Lazard",
+        "stats": {
+          "Points": 12,
+          "Yards": 80,
+          "Targets": 10,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Alvin Kamara",
+        "stats": {
+          "Points": 30,
+          "Yards": 150,
+          "Targets": 12,
+          "Fumbles": 0
+        }
+      },
+      {
+        "name": "Amari Cooper",
+        "stats": {
+          "Points": 22,
+          "Yards": 180,
+          "Targets": 14,
+          "Fumbles": 0
+        }
+      }
+    ]
+  }
+  
